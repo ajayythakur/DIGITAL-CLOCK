@@ -57,9 +57,9 @@ else if(hr>=12 && hr<16 ){
     // wishtext.innerText="GOOD AFTERNOON !! TAKE SOME SLEEP";
 }
 else if(hr>=16 && hr<20 ){
-    // message.innerText="STOP YAWING, GET SOME TEA..ITS JUST EVENING";
+    message.innerText="STOP YAWING, GET SOME TEA..ITS JUST EVENING";
     // document.getElementById("image").src = "./lunch_image.png";
-    wishtext.innerText="GOOD EVENING !!";
+    // wishtext.innerText="GOOD EVENING !!";
 
 
 }
