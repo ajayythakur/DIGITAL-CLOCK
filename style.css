@@ -157,7 +157,7 @@ body{
 #wishtext{
     font-family: 'Bungee Shade', cursive;
     text-align: center;
-font-size: 0px;
+font-size: 20px;
 margin-top: 10px;
 color: white;
 font-weight: 800;
@@ -422,7 +422,7 @@ select{
     color: #3D087BDE;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-dropdown3 {
+.dropdown3 {
     position: absolute;
     left: 195%;
     height: 30px;
@@ -461,7 +461,7 @@ dropdown3 {
 #wishtext {
     font-family: 'Bungee Shade', cursive;
     /* text-align: center; */
-    font-size: 0px;
+    font-size: 20px;
     margin-top: 0px;
     color: white;
     font-weight: 900;
@@ -477,7 +477,6 @@ dropdown3 {
     height: 50px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
-    font-family: bauhaus;
     color: white;
     background-image: linear-gradient( to right, #6E54EC , #FC5EFF , #FC5EFF , #F1A7C5 );
     box-sizing: border-box;
