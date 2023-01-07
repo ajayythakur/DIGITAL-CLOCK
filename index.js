@@ -41,7 +41,7 @@ let message=document.getElementById("sidebox");
 if(hr>=00 && hr<8 ){
     message.innerText="IT'S TOO EARLY GO AND SLEEP AGAIN";
     // document.getElementById("image").src = "./Component 30 – 1.svg";
-    wishtext.style.fontSize="25px"
+    wishtext.style.fontSize="23px"
     // wishtext.innerText="EARLY MORNING !!" 
 }
 else if(hr>=08 && hr<12 ){
@@ -65,8 +65,8 @@ else if(hr>=16 && hr<20 ){
 }
 else if(hr>=20 && hr<=24){
     message.innerText="close your eyes and to go sleep";
-    document.getElementById("image").src = "./Group 5194.png";
-    wishtext.innerText="GOOD NIGHT !!";
+    // document.getElementById("image").src = "./Group 5194.png";
+    // wishtext.innerText="GOOD NIGHT !!";
 }
 
 }
@@ -162,8 +162,8 @@ sa.addEventListener("click",function(){
 
 
         if(dvalue==hrtime){
-            console.log(dvalue)
-            console.log(hrtime)
+            // console.log(dvalue)
+            // console.log(hrtime)
             document.getElementById("image").src = "./Component 30 – 1.svg";
             wishtext1.style.fontSize="25px"
             wishtext1.innerText="GOOD MORNING !! WAKE UP !!"
@@ -171,10 +171,10 @@ sa.addEventListener("click",function(){
          }
 
          else if(dvalue1==hrtime){
-            console.log(dvalue2)
-            console.log(hrtime)
+            // console.log(dvalue2)
+            // console.log(hrtime)
             document.getElementById("image").src = "./Group 5183.png";
-            wishtext1.style.fontSize="22px"
+            wishtext1.style.fontSize="20px"
             wishtext1.innerText="GOOD AFTERNOON !! TAKE SOME SLEEP";
             console.log(hrtime);
 
