@@ -10,10 +10,11 @@
 </head>
 <body>
     <img class="clock" src="clock_logo.png" alt="">
+
+<!-- this div for selcting the time from different dropdown -->
     <div class="routinebox">
     <img  class="wakeup" src="wake_up.png" alt="">
     <p class="txt">Set wake up time
-
     <select name="" id="dropdown" class="" >
     <option value="NA" >Select Time</option>
     <option value="0" >12AM-1AM</option>
@@ -41,6 +42,7 @@
     <option value="22">10PM-11PM</option>
     <option value="23">11PM-12AM</option>
     </select></p>
+
     <div class="ruler"></div>
     <img src="lunch_time.png" alt="" class="lunch">
     <p class="txt1">Set lunch time
@@ -72,7 +74,9 @@
         <option value="23">11PM-12AM</option>
     </select>
     </p>
+
     <div class="ruler2"></div>
+
     <img src="nap_time.png" alt="" class="nap">
     <p class="txt2">Set nap nap
     <select name="" id="d2" class="dropdown2">
@@ -103,7 +107,9 @@
         <option value="23">11PM-12AM</option>    
     </select>
     </p>
+
     <div class="ruler3"></div>
+
     <img src="nap_time.png" alt="" class="nap2">
     <p class="txt3">Set night time
     <select name="" id="d3" class="dropdown3">
@@ -134,29 +140,38 @@
         <option value="23">11PM-12AM</option>   
     </select>
     </p>
+    
     </div>
     <div class="textbox"></div>
     <p id="wishtext"> </p>
 
+<!-- Alarm button -->
     <button id="sa"><span>Set alarm </span></button>
 
+    <!-- this div is for showing schedule in the right of Alarm button -->
     <div class="routinetxt"></div>
     <span class="rtxt">Wake Up Time: <span id="wktxt">NA</span><br>
                        Lunch Time : <span id="ltxt">NA</span><br>
                        Nap Time : <span id="ntxt">NA</span> <br>
                        Night Time : <span id="nightxt">NA</span>
                         </span> 
-    <div id="sidebox" > </div>
+
+<!-- this div shows the message according to real time -->
+    <div id="sidebox" > </div> 
+
+
+<!-- this div shows image  -->
     <div class="sideimage">
         <img src="" id="image" alt="">
     </div>
+
+
+<!-- this div shows live time -->
     <div class="timebox" id="clock"> <span class="time">Time</span>
         <img src="timeline.svg" class="timeline1" alt=""><span class="timetxt" id="hrs">10 <br>hours</span><span class="symbol">:</span>
         <img src="timeline.svg" class="timeline2" alt=""><span class="timetxt2" id="mins">00 <br> mins</span><span class="symbol2">:</span>
         <img src="timeline.svg" class="timeline2" alt=""><span class="timetxt3" id="secs">00 <br>secs</span>
         <img src="AM_svg.svg" class="pmbox" alt=""><span class="pmtxt" id="AM_PM">AM</span><br>
-        <!-- <button onclick="time()" type="button">clock</button> -->
-
     </div>
 
    <script src="index.js"></script> 

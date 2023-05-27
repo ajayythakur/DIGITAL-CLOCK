@@ -1,11 +1,8 @@
-
-let hrtime=0;
-
 // default image and text 
 wishtext.innerText="Hye..How are you";
 document.getElementById("image").src="./Derek Lunsford.jpg";
 
-
+let hrtime=0;
 // clock
 function timer(){
     let hour=document.getElementById("hrs");
@@ -77,7 +74,7 @@ setInterval(function(){
 
 
 
-// Getting Values from dropdown and print inside box in right of Alarm button
+// Getting Values from dropdown and print inside box in right side of Alarm button
 let d=document.getElementById("dropdown");
 let d1=document.getElementById("d1");
 let d2=document.getElementById("d2");
@@ -92,7 +89,7 @@ let dropdown4;
 d.addEventListener("change",function(event){
 const select=event.target;
 const value=select.value;
- dropdown=select.selectedOptions[0].text;
+dropdown=select.selectedOptions[0].text;
 console.log(dropdown);
 
 })
