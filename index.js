@@ -26,7 +26,9 @@ function timer(){
     let ampm=document.getElementById("AM_PM");
 
 if(hr>=12){
-    ampm.innerText="PM";
+    
+    // ampm.innerText="PM";
+    ampm.style.display='none'
 
 }
 else{
@@ -35,13 +37,13 @@ else{
 
 
 let message=document.getElementById("sidebox");
-if(hr>=00 && hr<8 ){
+if(hr>=0 && hr<8 ){
     message.innerText="IT'S TOO EARLY GO AND SLEEP AGAIN";
     // document.getElementById("image").src = "./Component 30 – 1.svg";
     wishtext.style.fontSize="23px"
     // wishtext.innerText="EARLY MORNING !!" 
 }
-else if(hr>=08 && hr<12 ){
+else if(hr>=8 && hr<12 ){
     message.innerText="GRAB SOME HEALTHY BREAKFAST";
     // document.getElementById("image").src = "./Component 30 – 1.svg";
     wishtext.style.fontSize="25px"
