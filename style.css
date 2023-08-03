@@ -175,7 +175,7 @@ align-items:center
   background: #ffffff;
   border: 1px solid #ededed;
   border-radius: 10px;
-  opacity: 0.23;
+  opacity: 1;
 }
 #wishtext {
   font-family: "Bungee Shade", cursive;
@@ -278,7 +278,7 @@ align-items:center
   box-sizing: border-box;
   padding: 30px;
   font-family: Georgia, "Times New Roman", Times, serif;
-  color: #8e53f0;
+  color: white;
 }
 .sideimage {
   /* position: absolute;
