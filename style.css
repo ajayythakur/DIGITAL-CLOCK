@@ -330,7 +330,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .time-data {
@@ -367,7 +367,7 @@ height: 90px;
   top: 25%;
   left: 31%; */
   height: 70px;
-  width: 93px;
+  width: 87px;
   background-color: rgb(246, 226, 255);
   text-align: center;
   color: #8a11bf;
@@ -468,6 +468,7 @@ select {
   .parent-container {
     display: flex;
     flex-direction: column;
+    row-gap: 5px;
   }
 
   .textbox {
@@ -527,6 +528,7 @@ select {
   .parent-container {
     display: flex;
     flex-direction: column;
+    row-gap: 5px;
   }
 
   .textbox {
