@@ -1,6 +1,6 @@
 // default image and text 
 wishtext.innerText="Hye..How are you";
-document.getElementById("image").src="./Derek Lunsford.jpg";
+document.getElementById("image").src="./robo.jpeg";
 
 let hrtime=0;
 // clock
