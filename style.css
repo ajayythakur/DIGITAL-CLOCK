@@ -458,7 +458,7 @@ select {
 }
 
 /* Media Query */
-@media (min-width: 393px) and (max-width: 500px) {
+@media (min-width: 380px) and (max-width: 500px) {
   .clock {
     position: absolute;
     top: 34px;
