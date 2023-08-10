@@ -364,15 +364,12 @@ height: 90px;
 
 .timetxt {
   font-weight: 600;
-  /* position: absolute;
-  top: 25%;
-  left: 31%; */
-  height: 70px;
-  width: 87px;
+  height: 59px;
+  width: 74px;
   background-color: rgb(246, 226, 255);
   text-align: center;
   color: #8a11bf;
-  font-size: 25px;
+  font-size: 20px;
   border-radius: 10px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -458,7 +455,7 @@ select {
 }
 
 /* Media Query */
-@media (min-width: 380px) and (max-width: 500px) {
+@media (min-width: 360px) and (max-width: 500px) {
   .clock {
     position: absolute;
     top: 34px;
